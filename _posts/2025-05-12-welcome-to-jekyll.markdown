@@ -14,6 +14,11 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
+{% highlight python %}
+def dfs():
+  print('hi')
+{% endhighlight %}
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
@@ -23,6 +28,21 @@ print_hi('Tom')
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+Here’s some inline math: $e^{i\pi} + 1 = 0$
+
+Here’s some block math:
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+
+
+
+$$
+f(x) = \int_{-\infty}^{\infty} \hat{\xi}\, e^{2 \pi i \xi x} \, d\xi
+$$
+
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
