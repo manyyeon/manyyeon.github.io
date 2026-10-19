@@ -390,27 +390,21 @@ h1 {
   border-top: 1px solid var(--line);
   grid-template-columns: 1fr;
   gap: 1.25rem;
-  padding: 3rem 0;
+  padding: 2.25rem 0;
   display: grid;
 }
 .contentSection > h2 {
   color: var(--accent);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   margin: 0;
-  font-size: 0.76rem;
+  font-size: 1.15rem;
   font-weight: 600;
-}
-.featured {
-  grid-template-columns: 135px 1fr;
-  gap: 1.5rem;
-  display: grid;
 }
 .entry {
   display: grid;
   gap: 0.45rem;
 }
-.featured h3,
 .entry h3,
 .focusList h3,
 .simpleList h3 {
@@ -420,17 +414,14 @@ h1 {
   font-weight: 600;
   line-height: 1.4;
 }
-.featured p {
-  margin: 0.45rem 0 0;
-}
-.featured .description {
+.entryDetails .description {
   color: var(--muted);
   margin-top: 1rem;
   font-size: 0.9rem;
 }
 .entryMeta {
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.88rem;
   line-height: 1.5;
   text-align: right;
 }
@@ -611,14 +602,13 @@ footer a {
   .contentSection {
     grid-template-columns: 1fr;
     gap: 1.25rem;
-    padding: 2.5rem 0;
+    padding: 1.75rem 0;
   }
   .focusList {
     grid-column: 1;
     grid-template-columns: 1fr;
     margin-top: 0;
   }
-  .featured,
   .entry {
     grid-template-columns: 1fr;
     gap: 0.4rem;
