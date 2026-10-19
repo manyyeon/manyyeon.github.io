@@ -21,7 +21,7 @@
 title: Dayeon Yoo
 email: udayeon@unm.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a graduate student at the University of New Mexico, majoring in Quantum Information Science.
+  Dayeon Yoo is a master's student in Computer Engineering at the University of New Mexico, researching quantum LDPC code optimization.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: manyyeon

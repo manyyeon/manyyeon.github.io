@@ -6,7 +6,7 @@
     <title>Dayeon Yoo — Quantum Error Correction Research</title>
     <meta
       name="description"
-      content="Dayeon Yoo is a quantum computing researcher working on qLDPC code discovery, optimization, and hardware-aware quantum error correction."
+      content="Dayeon Yoo is a master’s student at the University of New Mexico researching quantum LDPC code optimization with adversarial games and graph-search methods."
     />
     <meta name="theme-color" content="#ffffff" />
     <meta
@@ -15,7 +15,7 @@
     />
     <meta
       property="og:description"
-      content="Research in qLDPC code discovery, optimization, and hardware-aware quantum error correction."
+      content="Research in quantum LDPC code optimization, adversarial games, and graph-search methods."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://manyyeon.github.io/" />
@@ -36,39 +36,32 @@
       <section class="intro" id="top">
         <div class="introHeading">
           <div>
-            <p class="overline">Quantum error correction researcher</p>
+            <p class="overline">Quantum error correction</p>
             <h1>Dayeon Yoo</h1>
           </div>
           <img
             class="profilePhoto"
-            src="/IMG_5404.JPG"
+            src="/IMG_5404.png"
             alt="Dayeon Yoo"
             width="192"
             height="224"
           />
         </div>
         <p class="lede">
-          I am a Master&#x27;s student in Computer Engineering at the
-          <a href="https://cquic.unm.edu/" target="_blank" rel="noreferrer"
-            >Center for Quantum Information and Control at the University of New
-            Mexico</a
-          >, advised by
-          <a
-            href="https://www.unm.edu/~mmarvian/"
-            target="_blank"
-            rel="noreferrer"
-            >Prof. Milad Marvian</a
-          >. My research quantum error correction (QEC) and my current project
-          is about qLDPC code optimization, including hypergraph product and
-          bivariate bicycle codes.
+          I am a master’s student in Computer Engineering at the
+          <a href="https://www.unm.edu/" target="_blank" rel="noreferrer">University of New Mexico</a>,
+          with an emphasis in Quantum Information Science. I work with
+          <a href="https://www.unm.edu/~mmarvian/" target="_blank" rel="noreferrer">Prof. Milad Marvian</a>
+          at the <a href="https://cquic.unm.edu/" target="_blank" rel="noreferrer">Center for Quantum Information and Control</a>.
         </p>
         <p class="introSecondary">
-          My broader interests include neural decoding, logical computation, and
-          hardware-aware quantum error correction. Before moving into QEC, I
-          built production software and data-intensive systems for startups and
-          research teams.
+          My research focuses on quantum low-density parity-check (qLDPC) code optimization.
+          I develop adversarial-game and graph-search methods for hypergraph-product
+          and bivariate bicycle codes. My earlier work spans machine learning for
+          scientific data, multimodal advertising analysis, and full-stack software engineering.
         </p>
         <div class="contactLinks">
+          <a href="/CV_DayeonYoo.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
           <a href="mailto:udayeon@unm.edu">udayeon@unm.edu</a
           ><a
             href="https://github.com/manyyeon"
@@ -88,104 +81,63 @@
         <article class="featured">
           <div class="entryMeta">Manuscript in preparation</div>
           <div>
-            <h3>
-              Accelerating Quantum LDPC Code Optimization Through Adversarial
-              Games
-            </h3>
+            <h3>Accelerating Quantum LDPC Code Optimization Through Adversarial Games</h3>
             <p>Dayeon Yoo and Milad Marvian</p>
             <p class="description">
-              We design an adversarial game framework for accelerating the
-              quantum low-density parity-check (qLDPC) codes optimization. Our
-              approach leverages a two-player game between a code optimizer and
-              an adversarial environment, the adversarial environment
-              iteratively identify minimum-weight undetectable errors while the
-              optimizer updates the code to make those errors detectable.
+              I develop an adversarial-game framework in which a code optimizer updates
+              quantum LDPC codes against an environment that identifies minimum-weight
+              undetectable errors. The framework optimizes hypergraph-product and
+              bivariate bicycle codes.
             </p>
+            <p><a href="/posters/SQuInT2026_poster.pdf" target="_blank" rel="noreferrer">View SQuInT 2026 poster ↗</a></p>
           </div>
         </article>
-        <div class="focusList">
-          <article>
-            <h3>qLDPC code design</h3>
-            <p>
-              Automated search for hypergraph product and bivariate bicycle
-              codes.
-            </p>
-          </article>
-          <article>
-            <h3>Decoding and evaluation</h3>
-            <p>
-              BP+OSD decoding, logical-operator analysis, and Monte Carlo
-              performance evaluation.
-            </p>
-          </article>
-          <article>
-            <h3>Hardware-aware QEC</h3>
-            <p>
-              Quantum error correction for neutral-atom and trapped-ion
-              architectures.
-            </p>
-          </article>
-        </div>
       </section>
       <section class="contentSection" id="experience">
-        <h2>Experience</h2>
+        <h2>Research experience</h2>
         <div class="entries">
           <article class="entry">
             <div class="entryMeta">Aug 2025 — Present</div>
             <div>
-              <h3>Quantum Computing Research Assistant</h3>
-              <p class="place">University of New Mexico</p>
+              <h3>Research Assistant</h3>
+              <p class="place">Center for Quantum Information and Control, University of New Mexico</p>
               <ul>
-                <li>
-                  Developing computational methods for qLDPC code discovery with
-                  Prof. Milad Marvian.
-                </li>
-                <li>
-                  Improved reported code distances across four HGP code families
-                  and reduced empirical per-run search time by up to 38×.
-                </li>
-                <li>
-                  Extending the optimization method to bivariate bicycle codes.
-                </li>
+                <li>Developed an adversarial-game framework for qLDPC code optimization with Prof. Milad Marvian.</li>
+                <li>Improved HGP codes from [[1600,64,6]] to [[1600,64,12]] in 34 seconds and from [[2500,100,10]] to [[2500,100,14]] in 59 seconds.</li>
+                <li>Achieved distance 9 for [[625,25]] in 3 seconds, compared with distance 8 after 49 hours using a BP+OSD-based random-walk baseline.</li>
+                <li>Optimized bivariate bicycle codes using low-weight logical operators, discovering [[112,12,8]], [[228,12,≤18]], and [[340,16,≤18]] codes.</li>
               </ul>
             </div>
           </article>
           <article class="entry">
             <div class="entryMeta">May 2025 — Aug 2025</div>
             <div>
-              <h3>QU-REACH Quantum Computing Research Intern</h3>
+              <h3>QU-REACH Research Intern</h3>
               <p class="place">University of New Mexico</p>
               <ul>
-                <li>
-                  Built an adaptive, logical-error-rate-guided search for HGP
-                  codes using Tanner graph modifications and BP+OSD decoding.
-                </li>
+                <li>Developed graph-search methods for optimizing sparse structures in HGP quantum LDPC codes and benchmarked candidate-generation strategies against random-walk and simulated-annealing baselines.</li>
               </ul>
             </div>
           </article>
           <article class="entry">
             <div class="entryMeta">Oct 2024 — May 2025</div>
             <div>
-              <h3>Data Scientist</h3>
-              <p class="place">University of New Mexico</p>
+              <h3>Data Science Research Assistant</h3>
+              <p class="place">UNM Department of Marketing</p>
               <ul>
-                <li>
-                  Created a multimodal analysis pipeline combining image, video,
-                  audio, and language features to study social-media engagement.
-                </li>
+                <li>Built a multimodal machine-learning pipeline for 200K marketing advertisements, extracting image, video, audio, and text features with OpenCV, YOLOv8, Hugging Face Transformers, and speech-processing models.</li>
+                <li>Engineered visual and audio features and performed statistical analysis to study audience engagement and brand perception.</li>
               </ul>
             </div>
           </article>
           <article class="entry">
-            <div class="entryMeta">Nov 2022 — Feb 2024</div>
+            <div class="entryMeta">Aug 2024 — May 2025</div>
             <div>
-              <h3>Software Engineer</h3>
-              <p class="place">Divers</p>
+              <h3>Undergraduate Researcher</h3>
+              <p class="place">University of New Mexico</p>
               <ul>
-                <li>
-                  Led full-stack development of a React Native platform and
-                  helped scale the product to more than 15,000 users.
-                </li>
+                <li>Implemented and evaluated a convolutional-autoencoder-based pipeline for unsupervised anomaly detection in experimental MUED diffraction images.</li>
+                <li>Trained the autoencoder on 100 images and evaluated reconstruction-error-based detection across 1,521 experimental images for automated data-quality screening.</li>
               </ul>
             </div>
           </article>
@@ -195,161 +147,101 @@
         <h2>Education</h2>
         <div class="entries">
           <article class="entry">
-            <div class="entryMeta">2025 — 2026</div>
+            <div class="entryMeta">Aug 2025 — May 2027</div>
             <div>
               <h3>University of New Mexico</h3>
-              <p>MS in Computer Engineering</p>
-              <p class="place">Quantum Information Science emphasis</p>
+              <p class="place">M.S. in Computer Engineering</p>
+              <p>Quantum Information Science emphasis · GPA: 4.06/4.33</p>
+              <p>Advisor: Prof. Milad Marvian</p>
             </div>
           </article>
           <article class="entry">
-            <div class="entryMeta">2020 — 2025</div>
+            <div class="entryMeta">Aug 2024 — May 2025</div>
+            <div>
+              <h3>University of New Mexico</h3>
+              <p class="place">Exchange Student in Computer Science</p>
+              <p>GPA: 4.2/4.33</p>
+              <p>Korea-U.S. Student Exchange Program in STEM Fellowship</p>
+            </div>
+          </article>
+          <article class="entry">
+            <div class="entryMeta">Mar 2020 — Aug 2025</div>
             <div>
               <h3>Dongguk University</h3>
-              <p>BS in Computer Engineering</p>
-              <p class="place">Graduated with highest honors</p>
+              <p class="place">B.S. in Multimedia Software Engineering</p>
+              <p>Graduated with Highest Honors · GPA: 4.33/4.5</p>
             </div>
           </article>
         </div>
       </section>
       <section class="contentSection">
-        <h2>Selected presentations</h2>
+        <h2>Presentations and posters</h2>
         <div class="simpleList">
-          <article>
+          <article><div><h3><a href="/posters/SQuInT2026_poster.pdf" target="_blank" rel="noreferrer">Accelerating Quantum LDPC Code Optimization Through Adversarial Games</a></h3><p>Poster, SQuInT 2026</p></div><span>2026</span></article>
+          <article><div><h3>Property Testing</h3><p>Presentation, CQuIC Summer Course: Quantum Learning Theory</p></div><span>2026</span></article>
+          <article><div><h3>Fast and Accurate Neural-Network Decoders for Quantum Error-Correcting Codes</h3><p>Presentation, UNM QEC Course</p></div><span>2026</span></article>
+          <article><div><h3>Barium-137 Trapped-Ion Quantum Computing</h3><p>Presentation, UNM Platforms of Quantum Tech Course</p></div><span>2026</span></article>
+          <article><div><h3>Optimizing Hypergraph Product Codes</h3><p>Poster, QU-REACH</p></div><span>2025</span></article>
+        </div>
+      </section>
+      <section class="contentSection">
+        <h2>Work experience</h2>
+        <div class="entries">
+          <article class="entry">
+            <div class="entryMeta">Jun 2024 — May 2025</div>
             <div>
-              <h3>Property Testing</h3>
-              <p>CQuIC Special Seminar</p>
+              <h3>Co-Founder &amp; Software Engineer</h3>
+              <p class="place">SnapIT!</p>
+              <ul>
+                <li>Launched an AI-powered iOS photo booth app on the App Store, reaching 2K+ downloads and reducing four-cut photo generation time by 50%. Selected as a Top 10 finalist in the Epson Innovation Challenge.</li>
+                <li>Secured B2B partnerships for four local events and managed live deployments, stakeholder communication, and user feedback.</li>
+              </ul>
             </div>
-            <span>Jul 2026</span>
           </article>
-          <article>
+          <article class="entry">
+            <div class="entryMeta">Nov 2022 — Feb 2024</div>
             <div>
-              <h3>
-                Fast and Accurate Neural-Network Decoders for Different Quantum
-                Error-Correcting Codes
-              </h3>
-              <p>UNM QEC</p>
+              <h3>Software Engineer</h3>
+              <p class="place">Divers</p>
+              <ul>
+                <li>Led full-stack development of a cross-platform mobile app using React Native, Next.js, NestJS, PostgreSQL, and AWS, scaling the platform to 15K+ users.</li>
+                <li>Diagnosed production crashes and API/network failures, optimized runtime and memory performance, and validated releases through automated, unit, and integration testing.</li>
+              </ul>
             </div>
-            <span>May 2026</span>
-          </article>
-          <article>
-            <div>
-              <h3>Barium-137 Ion Trapped Quantum Computer</h3>
-              <p>University of New Mexico</p>
-            </div>
-            <span>Apr 2026</span>
-          </article>
-          <article>
-            <div>
-              <h3>Optimizing Hypergraph Product Codes</h3>
-              <p>QU-REACH Poster</p>
-            </div>
-            <span>Aug 2025</span>
           </article>
         </div>
       </section>
       <section class="contentSection">
-        <h2>Selected earlier work</h2>
-        <div class="projectList">
-          <article>
-            <div>
-              <p class="projectType">Product engineering · 2022–2024</p>
-              <h3>NurseVillage</h3>
-              <p>
-                Led full-stack development of a community platform for Korean
-                nurses, from architecture and deployment to product iteration
-                and team mentorship.
-              </p>
-              <a
-                href="https://www.nursevillage.com/"
-                target="_blank"
-                rel="noreferrer"
-                >Visit website ↗</a
-              >
-            </div>
-            <strong>15,000+</strong><span>users</span>
-          </article>
-          <article>
-            <div>
-              <p class="projectType">AI application · 2024</p>
-              <h3>SnapIT!</h3>
-              <p>
-                Led development of an AI photo-booth app with custom frames,
-                background removal, and event collaborations; optimized the
-                four-cut photo workflow to reduce creation time.
-              </p>
-              <a
-                href="https://apps.apple.com/ph/app/snapit/id6511210355"
-                target="_blank"
-                rel="noreferrer"
-                >View app ↗</a
-              >
-            </div>
-            <strong>1,500+</strong><span>downloads</span>
-          </article>
-          <article>
-            <div>
-              <p class="projectType">Data visualization · 2024</p>
-              <h3>NASA Space Apps: Wildfire Visualization</h3>
-              <p>
-                Built an interactive educational platform using NASA FIRMS data
-                to explain how wildfires affect interconnected Earth systems.
-              </p>
-              <a
-                href="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/fire-fighter/?tab=project"
-                target="_blank"
-                rel="noreferrer"
-                >View project ↗</a
-              >
-            </div>
-            <strong>1st</strong><span>Albuquerque</span>
-          </article>
-        </div>
-      </section>
-      <section class="contentSection">
-        <h2>Awards</h2>
+        <h2>Selected projects</h2>
         <div class="simpleList">
-          <article>
-            <h3>Lobo Hackathon — Winner</h3>
-            <span>2025</span>
-          </article>
-          <article>
-            <h3>NASA Space Apps Challenge — 1st Place</h3>
-            <span>2024</span>
-          </article>
-          <article>
-            <h3>Microsoft GenAI Hackathon — 3rd Place</h3>
-            <span>2024</span>
-          </article>
-          <article>
-            <h3>Epson Innovation Challenge — Top 10 Finalist</h3>
-            <span>2024</span>
-          </article>
-          <article>
-            <h3>Korea–U.S. Student Exchange Program in STEM Fellowship</h3>
-            <span>2024</span>
-          </article>
+          <article><div><h3><a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/fire-fighter/?tab=project" target="_blank" rel="noreferrer">NASA Space Apps Challenge — Fire Fighter</a></h3><p>1st Place · Built an interactive wildfire analytics platform using NASA Earth-observation APIs, with geospatial visualizations of wildfire activity and effects on air quality, biodiversity, and agriculture.</p></div><span>2024</span></article>
+          <article><div><h3><a href="https://www.linkedin.com/posts/dayeon-yoo-71a705276_genaihackathon-microsoft-ai-activity-7190306052989505537-DBjg" target="_blank" rel="noreferrer">Microsoft GenAI Hackathon — RAG Q&amp;A Bot</a></h3><p>3rd Place · Combined document retrieval and generative AI to produce context-grounded responses to questions about government documents.</p></div><span>2024</span></article>
+          <article><div><h3><a href="https://innovations.unm.edu/2025/04/14/2025-lobo-hackathon-fast-tracks-ideas-and-awards-19k-in-cash-prizes/" target="_blank" rel="noreferrer">Lobo Hackathon — LLM Legal Information Platform</a></h3><p>Prize Winner · Built an LLM-powered platform that processes U.S. government documents and generates accessible summaries for nonprofit and public users.</p></div><span>2025</span></article>
+        </div>
+      </section>
+      <section class="contentSection">
+        <h2>Honors, awards &amp; fellowships</h2>
+        <div class="simpleList">
+          <article><div><h3>Korea-U.S. Student Exchange Program in STEM Fellowship</h3><p>Supported exchange studies at the University of New Mexico.</p></div><span>2024</span></article>
+          <article><div><h3>Academic Merit Scholarship, Dongguk University</h3><p>Ranked 1st in the major by GPA; received the scholarship for three semesters.</p></div><span>2021 — 2022</span></article>
+        </div>
+      </section>
+      <section class="contentSection">
+        <h2>Leadership &amp; activities</h2>
+        <div class="simpleList">
+          <article><div><h3>IEEE UNM chapter</h3><p>Member · Represented IEEE at CES 2026 and CES 2025.</p></div><span>2024 — Present</span></article>
+          <article><div><h3>Society of Women Engineers (SWE) UNM chapter</h3><p>Member · Attended WE24 and WE25.</p></div><span>2024 — Present</span></article>
+          <article><div><h3>Hack The World Software Engineering Club</h3><p>Founder &amp; President · University of New Mexico</p></div><span>2024 — 2025</span></article>
+          <article><div><h3>Korean Language and Culture Club</h3><p>Officer · University of New Mexico</p></div><span>2024 — 2025</span></article>
         </div>
       </section>
       <section class="contentSection">
         <h2>Technical skills</h2>
         <dl class="skills">
-          <div>
-            <dt>Programming</dt>
-            <dd>Python, C++, SQL, JavaScript, TypeScript</dd>
-          </div>
-          <div>
-            <dt>Quantum &amp; scientific computing</dt>
-            <dd>BP+OSD, NumPy, SciPy, NetworkX, Z3, HDF5</dd>
-          </div>
-          <div>
-            <dt>Machine learning</dt>
-            <dd>PyTorch, TensorFlow, OpenCV, YOLO</dd>
-          </div>
-          <div>
-            <dt>Tools &amp; systems</dt>
-            <dd>LaTeX, Git, Linux, Slurm, HPC clusters</dd>
-          </div>
+          <div><dt>Languages</dt><dd>Python, C++, Java, SQL, JavaScript, TypeScript, C, HTML/CSS, MATLAB</dd></div>
+          <div><dt>QEC</dt><dd>qLDPC codes (HGP, BB), BP+OSD, Stim, Qiskit, Monte Carlo simulation</dd></div>
+          <div><dt>ML &amp; Data</dt><dd>PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, pandas, NumPy, SciPy, OpenCV</dd></div>
+          <div><dt>Tools &amp; Frameworks</dt><dd>HPC, Docker, PostgreSQL, HDF5, Slurm, Linux, Git, AWS, GCP, React Native, Next.js, NestJS</dd></div>
         </dl>
       </section>
       <footer>
