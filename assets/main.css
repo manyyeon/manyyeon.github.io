@@ -340,7 +340,7 @@ a {
   color: var(--accent);
 }
 .intro {
-  padding: 4.5rem 0 3.5rem;
+  padding: 1rem 0 1rem;
 }
 .overline {
   color: var(--accent);
@@ -379,7 +379,7 @@ h1 {
 }
 .contactLinks {
   gap: 1.35rem;
-  margin-top: 1.5rem;
+  margin-top: 0.4rem;
   display: flex;
 }
 .contactLinks a {
@@ -642,16 +642,23 @@ footer a {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 .introHeading h1 {
   margin-bottom: 0;
   font-size: clamp(2rem, 6vw, 2.25rem);
+  font-weight: 500;
+}
+.researchArea {
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+  font-size: clamp(1rem, 2vw, 1rem);
+  line-height: 1.35;
 }
 .profilePhoto {
   flex: none;
   width: 192px;
-  height: 224px;
+  height: 192px;
   object-fit: cover;
   object-position: center bottom;
   border-radius: 8px;
